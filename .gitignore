@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (too large for git — keep locally or link to Kaggle)
+*.csv
+*.parquet
+*.jsonl
+data/
+
+# Model weights (never commit these)
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+models/
+
+# API keys
+.env
+secrets.json
+*.key
+
+# OS
+.DS_Store
+*.swp
